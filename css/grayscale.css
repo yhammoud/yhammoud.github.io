@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: yellow;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -260,12 +260,33 @@ a:focus {
 .content-section {
     padding-top: 100px;
 }
-
+.about-section {
+    width: 100%;
+    padding-top: 350px;
+    color: #fff;
+    background: url(../img/greyscale_fade.png) no-repeat top center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 .projects-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/code_fade.png) no-repeat top center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.hobbies-section {
+    width: 100%;
+    padding: 70px;
+    color: #fff;
+    background: url(../img/ATL.png) no-repeat top center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -281,7 +302,6 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
     }
 
     .projects-section {
@@ -305,17 +325,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid yellow;
+    color: yellow;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid yellow;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: yellow;
 }
 
 ul.banner-social-buttons {
